@@ -1,0 +1,55 @@
+body{
+    
+   
+}
+
+/*------------------------------header styles-----------------------*/
+header
+{
+    background-color:#fef158;
+    height: 10%;/*altura*/
+    width: 100%;
+    display:flex;/**/
+    flex-direction: row;
+    justify-content: space-around;/**el eje x es el principal*/
+    align-items: center;/**/
+}
+#logo-container{
+    height: 60px;
+    width: 160px;
+
+}
+#logo-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#options-container{
+    padding: 4px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#profile-container{
+    height: 50px;
+    width: 170px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#profile-image{
+    height: 50px;
+    width: 50px;
+}
+main {
+    background-color: chartreuse;
+    height: 50%;
+}
+footer {
+    background-color: darkgreen;
+    height: 10%;
+}
